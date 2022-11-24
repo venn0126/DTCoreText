@@ -966,7 +966,7 @@
 		A788CA3314863EF100E1AFD9 /* CoreTextDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextDemoAppDelegate.h; sourceTree = "<group>"; };
 		A788CA3414863EF100E1AFD9 /* CoreTextDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextDemoAppDelegate.m; sourceTree = "<group>"; };
 		A788CA3514863EF100E1AFD9 /* DemoSnippetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSnippetsViewController.h; sourceTree = "<group>"; };
-		A788CA3614863EF100E1AFD9 /* DemoSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DemoSnippetsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A788CA3614863EF100E1AFD9 /* DemoSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DemoSnippetsViewController.m; sourceTree = "<group>"; };
 		A788CA3714863EF100E1AFD9 /* DemoTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTextViewController.h; sourceTree = "<group>"; };
 		A788CA3814863EF100E1AFD9 /* DemoTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DemoTextViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A788CA3914863EF100E1AFD9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -2047,6 +2047,12 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Drobnik.com;
 				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = AQDKUEE5C2;
+					};
+					A788CA671486456100E1AFD9 = {
+						DevelopmentTeam = AQDKUEE5C2;
+					};
 					A78D9F771965B7DD00C80986 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -2716,6 +2722,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = AQDKUEE5C2;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Demo/DemoApp-Prefix.pch";
@@ -2724,7 +2731,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo111;
 				PRODUCT_NAME = RTDemoApp;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -2736,13 +2743,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = AQDKUEE5C2;
 				GCC_PREFIX_HEADER = "Demo/DemoApp-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Demo/DemoApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo111;
 				PRODUCT_NAME = RTDemoApp;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -2920,6 +2928,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = AQDKUEE5C2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2948,6 +2957,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = AQDKUEE5C2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3319,6 +3329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = AQDKUEE5C2;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Demo/DemoApp-Prefix.pch";
@@ -3327,7 +3338,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo111;
 				PRODUCT_NAME = RTDemoApp;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -3339,6 +3350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = AQDKUEE5C2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
