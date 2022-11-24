@@ -8,11 +8,11 @@
 #endif
 
 // global constants
-#import "DTCoreTextMacros.h"
+//#import "DTCoreTextMacros.h"
 #import "DTCoreTextConstants.h"
 #import "DTCompatibility.h"
 
-#import "DTColor+Compatibility.h"
+//#import "DTColor+Compatibility.h"
 #import "DTImage+HTML.h"
 
 // common utilities
@@ -37,15 +37,15 @@
 #import "DTStylesheetHTMLElement.h"
 #import "DTTextAttachmentHTMLElement.h"
 #import "DTTextHTMLElement.h"
-#import "DTHTMLWriter.h"
+//#import "DTHTMLWriter.h"
 #import "NSCharacterSet+HTML.h"
 #import "NSCoder+DTCompatibility.h"
 #import "NSDictionary+DTCoreText.h"
 #import "NSAttributedString+HTML.h"
 #import "NSAttributedString+SmallCaps.h"
-#import "NSAttributedString+DTCoreText.h"
+//#import "NSAttributedString+DTCoreText.h"
 #import "NSMutableAttributedString+HTML.h"
-#import "NSMutableString+HTML.h"
+//#import "NSMutableString+HTML.h"
 #import "NSScanner+HTML.h"
 #import "NSString+CSS.h"
 #import "NSString+HTML.h"
@@ -66,31 +66,31 @@
 
 #import "NSAttributedStringRunDelegates.h"
 
-#import "DTCoreTextGlyphRun.h"
-#import "DTCoreTextLayoutFrame.h"
-#import "DTCoreTextLayoutFrame+Cursor.h"
-#import "DTCoreTextLayoutLine.h"
-#import "DTCoreTextLayouter.h"
+//#import "DTCoreTextGlyphRun.h"
+//#import "DTCoreTextLayoutFrame.h"
+//#import "DTCoreTextLayoutFrame+Cursor.h"
+//#import "DTCoreTextLayoutLine.h"
+//#import "DTCoreTextLayouter.h"
 
 // TARGET_OS_IPHONE is both tvOS and iOS
 #if TARGET_OS_IPHONE
 
-#import "DTLazyImageView.h"
-#import "DTLinkButton.h"
+//#import "DTLazyImageView.h"
+//#import "DTLinkButton.h"
 
-#import "DTAttributedLabel.h"
-#import "DTAttributedTextCell.h"
-#import "DTAttributedTextContentView.h"
-#import "DTAttributedTextView.h"
+//#import "DTAttributedLabel.h"
+//#import "DTAttributedTextCell.h"
+//#import "DTAttributedTextContentView.h"
+//#import "DTAttributedTextView.h"
 #import "DTCoreTextFontCollection.h"
 
-#import "DTDictationPlaceholderView.h"
+//#import "DTDictationPlaceholderView.h"
 
 #import "UIFont+DTCoreText.h"
 
-#import "DTAccessibilityElement.h"
-#import "DTAccessibilityViewProxy.h"
-#import "DTCoreTextLayoutFrameAccessibilityElementGenerator.h"
+//#import "DTAccessibilityElement.h"
+//#import "DTAccessibilityViewProxy.h"
+//#import "DTCoreTextLayoutFrameAccessibilityElementGenerator.h"
 
 #endif
 

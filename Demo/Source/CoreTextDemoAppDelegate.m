@@ -7,7 +7,8 @@
 //
 
 #import "CoreTextDemoAppDelegate.h"
-#import "DemoSnippetsViewController.h"
+//#import "DemoSnippetsViewController.h"
+#import "AutoLayoutDemoViewController.h"
 
 #import "DTCoreText.h"
 #import "UIView+DTDebug.h"
@@ -31,8 +32,10 @@
 	_window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
 	// Create the view controller
-	DemoSnippetsViewController *snippetsViewController = [[DemoSnippetsViewController alloc] init];
-	_navigationController = [[UINavigationController alloc] initWithRootViewController:snippetsViewController];
+//	DemoSnippetsViewController *snippetsViewController = [[DemoSnippetsViewController alloc] init];
+	
+	AutoLayoutDemoViewController *autoLayoutVC = [[AutoLayoutDemoViewController alloc] init];
+	_navigationController = [[UINavigationController alloc] initWithRootViewController:autoLayoutVC];
 	
 	// Display the window
 	_window.rootViewController = _navigationController;
